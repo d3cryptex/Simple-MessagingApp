@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
+
+:root{
+    --text-color: rgb(233, 233, 233);
+    --name-color: rgb(141, 108, 231);
+    --date-color: var(--placeholder-color);
+    --hover-text-color: rgb(36, 34, 39);
+    --btn-color: rgb(131, 110, 189);
+    --outline-color: var(--btn-color);
+    --placeholder-color: rgb(150, 150, 150);
+    --chat-window: rgb(22, 21, 22);
+    --scrollbar-background: rgb(20, 20, 20);
+    --scrollbar-thumb: rgb(40, 34, 49);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: "Exo 2", sans-serif;
+}
+
+::-webkit-scrollbar{
+    background-color: var(--scrollbar-background);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+    background-color: var(--scrollbar-thumb);
+}
+
+/* Login */
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    color: var(--text-color);
+    margin: 5px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#label{
+    margin: 5px;
+    color: var(--text-color);
+    display: flex;
+}
+
+#label-text{
+    margin: 5px;
+}
+
+#input-area{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(24, 24, 24);
+    color: var(--text-color);
+    font-family: "Exo 2", sans-serif;
+    padding: 4px;
+    transition: all 0.5s;
+}
+
+#input-area:focus-within{
+    border: none;
+    outline: 1px solid var(--outline-color);
+}
+
+#input-area::placeholder{
+    color: var(--placeholder-color);
+    transition: all 0.5s;
+}
+
+#input-area:focus::placeholder{
+    color: var(--btn-color);
+    transition: all 0.5s;
+}
+
+#btn{
+    color: var(--text-color);
+    font-family: "Exo 2", sans-serif;
+    background-color: var(--btn-color);
+    border: none;
+    margin: 4px;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+.login-btn:hover{
+    color: var(--hover-text-color);
+    transform: scaleX(0.8);
+}
+
+/* Main */
+
+.chat-window{
+    background-color: var(--chat-window);
+    padding: 5px;
+    min-height: 300px;
+    max-height: 500px;
+    max-width: 400px;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+}
+
+.message-container-anotheruser{
+    display: flex;
+    justify-content: end;
+}
+
+.message-container{
+    display: flex;
+}
+
+.message-name{
+    color: var(--name-color);
+}
+
+.message-date{
+    color: var(--date-color);
+    margin: 2px;
+    font-size: 10px;
+}
+
+.message{
+    color: var(--text-color);
+}
+
+.top-sender{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
