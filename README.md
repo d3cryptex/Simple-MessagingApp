@@ -6,7 +6,7 @@ This is a **beginner-friendly source code** for a simple messaging web applicati
 
 ```
 message-app/
-├── index.html           # Login page
+├── login.html           # Login page
 ├── main.html            # Chat page after login
 ├── styles.css           # All styles and theme variables
 ├── login.js             # Logic for authentication
@@ -52,3 +52,4 @@ Pull requests are welcome! Feel free to fork the project and improve it in your 
 ---
 
 🧪 Made with ❤️ to help you **learn by building**.
+By **d3cryptex**
