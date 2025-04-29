@@ -54,6 +54,7 @@ Pull requests are welcome! Feel free to fork the project and improve it in your 
 MIT License © 2025
 
 
-🧪 Made with ❤️ to help you **learn by building**.
+
+Made with ❤️ to help you **learn by building**.
 
 By **d3cryptex**
