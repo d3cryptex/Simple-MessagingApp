@@ -2,6 +2,11 @@
 
 This is a **beginner-friendly source code** for a simple messaging web application. It includes login functionality, local message saving, and basic UI styles using HTML, CSS, and JavaScript — perfect as a foundation for learning and extending chat-based interfaces.
 
+## 🎴 Preview
+
+![MessagingApp Screenshot](photo1.png)
+![MessagingApp Screenshot](photo2.png)
+
 ## 📁 Project Structure
 
 ```
