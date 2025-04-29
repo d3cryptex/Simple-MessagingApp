@@ -5,6 +5,7 @@ This is a **beginner-friendly source code** for a simple messaging web applicati
 ## 🎴 Preview
 
 ![MessagingApp Screenshot](photo1.png)
+
 ![MessagingApp Screenshot](photo2.png)
 
 ## 📁 Project Structure
